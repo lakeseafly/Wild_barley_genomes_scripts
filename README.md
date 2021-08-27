@@ -2,6 +2,6 @@
 
 In this repository, we included the codes we used in the Wild barley genomes manuscript
 
-##Contact
+## Contact
 
-#E-mail：ytguojian@163.com
+# E-mail：ricky.hu@murdoch.edu.au 
