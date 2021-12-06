@@ -1,0 +1,7 @@
+library(FastEPRR)
+dir.create("chr1_rr")
+FastEPRR_VCF_step1(vcfFilePath="chr1.vcf.gz",winLength="100000",srcOutputFilePath="chr1_rr")
+dir.create("/home/zhr/chr1_output")
+FastEPRR_VCF_step2(srcFolderPath="chr1_rr",jobNumber=1,currJob=1,DXOutputFolderPath="chr1_output")
+dir.create("/home/zhr/chr1_results")
+FastEPRR_VCF_step3(srcFolderPath="chr1_rr",DXFolderPath="chr1_output",finalOutputFolderPath="chr1_results")
